@@ -4,13 +4,17 @@
 
 Humming brings everyday Windows tasks into one compact launcher. Open an app, find a file by name, copy a folder's path, work out a calculation, or send a deliberate search to Google—all from the same search field.
 
-**Current beta: 0.1.0-beta.2 · Windows 11 x64**
+**Current beta: 0.1.0-beta.3 · Windows 11 x64**
 
-[**Download Windows Setup**](https://github.com/memeseonew-eng/Humming/releases/download/v0.1.0-beta.2/HummingSetup-0.1.0-beta.2-win-x64.exe) · [**Download portable ZIP**](https://github.com/memeseonew-eng/Humming/releases/download/v0.1.0-beta.2/Humming-0.1.0-beta.2-win-x64.zip) · [Release notes](https://github.com/memeseonew-eng/Humming/releases/tag/v0.1.0-beta.2)
+[**Download Windows Setup**](https://github.com/memeseonew-eng/Humming/releases/download/v0.1.0-beta.3/HummingSetup-0.1.0-beta.3-win-x64.exe) · [**Download portable ZIP**](https://github.com/memeseonew-eng/Humming/releases/download/v0.1.0-beta.3/Humming-0.1.0-beta.3-win-x64.zip) · [Release notes](https://github.com/memeseonew-eng/Humming/releases/tag/v0.1.0-beta.3)
 
 The runtime is included. This beta's app and installer are unsigned; Windows may show a publisher or reputation warning. Use the release above for official downloads and published checksums.
 
 ![Humming home with apps and everyday actions](images/humming-home.png)
+
+## New in beta.3
+
+Opening Preferences no longer turns the launcher's results area white. The background follows the active theme while the launcher is temporarily disabled, including when you preview light and dark appearance.
 
 ## A small place for the things you do often
 
@@ -89,7 +93,7 @@ Clear usage history in Preferences and save the change when you want a fresh sta
 
 | | Windows Setup | Portable ZIP |
 |---|---|---|
-| Start | Run `HummingSetup-0.1.0-beta.2-win-x64.exe`, then open Humming from Start | Extract `Humming-0.1.0-beta.2-win-x64.zip` to a writable folder, then open `Humming.exe` |
+| Start | Run `HummingSetup-0.1.0-beta.3-win-x64.exe`, then open Humming from Start | Extract `Humming-0.1.0-beta.3-win-x64.zip` to a writable folder, then open `Humming.exe` |
 | Installation | Per Windows account; optional desktop shortcut | No installer |
 | Default data folder | `%LOCALAPPDATA%\Humming` | `data\` beside `Humming.exe` |
 | Update | Quit Humming and run the new Setup; the data folder is retained | Quit Humming and keep `data\` when replacing program files |
@@ -117,7 +121,7 @@ For a private settings save, quit Humming and copy the settings files. Exclude `
 
 This release is intended for early feedback on Windows 11 x64. Initial indexing speed and search latency depend on your drives, inventory, permissions, and current workload. Broader accessibility, mixed-monitor/DPI, slow-device, and separate clean-PC validation remain ongoing.
 
-Read the [beta release notes](releases/v0.1.0-beta.2.md) and [changelog](CHANGELOG.md), or [report an issue](https://github.com/memeseonew-eng/Humming/issues). Include the Humming version, Windows version, steps to reproduce, and whether indexing was active or paused. Remove personal paths, filenames, and queries from anything you share.
+Read the [beta release notes](releases/v0.1.0-beta.3.md) and [changelog](CHANGELOG.md), or [report an issue](https://github.com/memeseonew-eng/Humming/issues). Include the Humming version, Windows version, steps to reproduce, and whether indexing was active or paused. Remove personal paths, filenames, and queries from anything you share.
 
 This repository contains public downloads, screenshots, release information, and version metadata. Application development source and private project history are not published here.
 ## Use, reuse and privacy

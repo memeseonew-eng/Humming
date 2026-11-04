@@ -2,6 +2,13 @@
 
 User-facing changes to Humming's public releases.
 
+## [0.1.0-beta.3](https://github.com/memeseonew-eng/Humming/releases/tag/v0.1.0-beta.3) - Preferences theme fix
+
+- Fixed a white background that could appear in the launcher's results area behind Preferences.
+- Kept the disabled results surface in the active theme, including light and dark previews while Preferences is open.
+
+Existing file search, explicit web search, background/startup defaults, privacy information and release protection continue in this maintenance beta.
+
 ## [0.1.0-beta.2](https://github.com/memeseonew-eng/Humming/releases/tag/v0.1.0-beta.2) - Release protection and privacy
 
 - Added explicit application-use and resource-reuse terms, preserving third-party licenses and applicable legal exceptions.
@@ -36,4 +43,4 @@ These are modest copying deterrents and release checks, not encryption of local 
 
 Windows 11 x64; runtime included. The app and Setup are unsigned. The initial scan is progressive and coverage depends on available local drives and permissions. Windows startup is opt-in. There is no file-content search or automatic updater.
 
-See the [release notes](releases/v0.1.0-beta.1.md) for historical feature notes, data paths, keyboard shortcuts, and validation limits. Use the current beta.2 release for downloads. This public repository contains distribution material rather than application development history.
+See the [release notes](releases/v0.1.0-beta.1.md) for historical feature notes, data paths, keyboard shortcuts, and validation limits. Use the current beta.3 release for downloads. This public repository contains distribution material rather than application development history.
