@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "product": "Humming",
+  "channel": "beta",
+  "version": "0.1.0-beta.1",
+  "fileVersion": "0.1.0.1",
+  "tag": "v0.1.0-beta.1",
+  "prerelease": true,
+  "releaseUrl": "https://github.com/memeseonew-eng/Humming/releases/tag/v0.1.0-beta.1",
+  "updateMode": "manual",
+  "platform": "windows",
+  "architecture": "x64",
+  "minimumWindowsBuild": 22000,
+  "downloads": {
+    "setup": {
+      "url": "https://github.com/memeseonew-eng/Humming/releases/download/v0.1.0-beta.1/HummingSetup-0.1.0-beta.1-win-x64.exe",
+      "bytes": 71633968,
+      "sha256": "3236150006286f0a08810abb7e17044dc01be39fa343d3fdacef90fc4e96df45"
+    },
+    "portable": {
+      "url": "https://github.com/memeseonew-eng/Humming/releases/download/v0.1.0-beta.1/Humming-0.1.0-beta.1-win-x64.zip",
+      "bytes": 70987960,
+      "sha256": "91ad8b7ed2b8fc2dabbc474a468169c9fb51a8b563828e895a2a483a0d047c65"
+    }
+  },
+  "checksumsUrl": "https://github.com/memeseonew-eng/Humming/releases/download/v0.1.0-beta.1/SHA256SUMS.txt"
+}
