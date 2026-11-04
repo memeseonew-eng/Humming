@@ -52,7 +52,7 @@ Indexing and change monitoring run while Humming is running. This is a filename 
 
 ## A few keystrokes to get started
 
-After starting Humming, press **Ctrl+Alt+Space** to show or hide the launcher. You can change that global shortcut in Preferences.
+After starting Humming, press **Ctrl+Alt+Space** to open or dismiss the launcher. You can change that global shortcut in Preferences.
 
 | Task | What to do |
 |---|---|
@@ -68,14 +68,14 @@ The `=` and `?` examples work in **All** or **Actions**. The visible Calculate a
 
 | Shortcut | Action |
 |---|---|
-| **Ctrl+Alt+Space** | Show or hide Humming using the default global shortcut |
+| **Ctrl+Alt+Space** | Open or dismiss Humming using the default global shortcut |
 | **↑ / ↓** | Select a result while using the search field |
 | **Enter** | Perform the selected result's displayed action |
 | **Ctrl+K** | Focus the search field and select its text |
 | **Ctrl+D** | Toggle the selected item's favorite star |
 | **Ctrl+Shift+C** | Copy the selected local target's path |
 | **Ctrl+,** | Open Preferences |
-| **Esc** | Clear a nonempty query; with an empty query, hide Humming |
+| **Esc** | Clear a nonempty query; with an empty query, dismiss Humming |
 
 For a Start Menu app, **Copy path** copies the shortcut file's path. Some indexed file types can be found and copied but are not permitted to open through Humming.
 
@@ -95,9 +95,17 @@ Clear usage history in Preferences and save the change when you want a fresh sta
 | Update | Quit Humming and run the new Setup; the data folder is retained | Quit Humming and keep `data\` when replacing program files |
 | Removal | Uninstall removes program files and retains the data folder | Keep or remove the extracted folder and its data as you choose |
 
-The two modes use different default data folders. Only one Humming instance runs in a Windows session; quit it from the tray before switching copies.
+The two modes use different default data folders. Only one Humming instance runs in a Windows session; use `> quit` or the tray's Quit action before switching copies.
 
-Humming does not start with Windows automatically, and this beta does not include an automatic updater. Open it from Start or its executable, and check the [releases page](https://github.com/memeseonew-eng/Humming/releases) for updates.
+### Choose when Humming runs
+
+**Run in the background is On by default.** Dismissing the launcher keeps it in the tray, ready for your global shortcut. Turn it Off to exit when you close or dismiss the launcher, or after opening an external result. Clicking elsewhere leaves the window visible in this mode.
+
+**Start with Windows is Off by default.** Enable it in **Preferences → Background & startup** and save to launch this copy when you sign in. With background mode On it starts quietly in the tray; with background mode Off it opens the launcher. The two switches are independent.
+
+Windows startup belongs to the current computer and app location. After moving a portable folder or restoring your project on another computer, enable it again if wanted. Uninstall removes only the installed copy's startup entry.
+
+This beta uses manual updates. Check the [releases page](https://github.com/memeseonew-eng/Humming/releases) for the next version.
 
 ### Keep personal data separate from downloads
 
