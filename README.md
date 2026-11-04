@@ -4,9 +4,9 @@
 
 Humming brings everyday Windows tasks into one compact launcher. Open an app, find a file by name, copy a folder's path, work out a calculation, or send a deliberate search to Google—all from the same search field.
 
-**First beta: 0.1.0-beta.1 · Windows 11 x64**
+**Current beta: 0.1.0-beta.2 · Windows 11 x64**
 
-[**Download Windows Setup**](https://github.com/memeseonew-eng/Humming/releases/download/v0.1.0-beta.1/HummingSetup-0.1.0-beta.1-win-x64.exe) · [**Download portable ZIP**](https://github.com/memeseonew-eng/Humming/releases/download/v0.1.0-beta.1/Humming-0.1.0-beta.1-win-x64.zip) · [Release notes](https://github.com/memeseonew-eng/Humming/releases/tag/v0.1.0-beta.1)
+[**Download Windows Setup**](https://github.com/memeseonew-eng/Humming/releases/download/v0.1.0-beta.2/HummingSetup-0.1.0-beta.2-win-x64.exe) · [**Download portable ZIP**](https://github.com/memeseonew-eng/Humming/releases/download/v0.1.0-beta.2/Humming-0.1.0-beta.2-win-x64.zip) · [Release notes](https://github.com/memeseonew-eng/Humming/releases/tag/v0.1.0-beta.2)
 
 The runtime is included. This beta's app and installer are unsigned; Windows may show a publisher or reputation warning. Use the release above for official downloads and published checksums.
 
@@ -89,7 +89,7 @@ Clear usage history in Preferences and save the change when you want a fresh sta
 
 | | Windows Setup | Portable ZIP |
 |---|---|---|
-| Start | Run `HummingSetup-0.1.0-beta.1-win-x64.exe`, then open Humming from Start | Extract `Humming-0.1.0-beta.1-win-x64.zip` to a writable folder, then open `Humming.exe` |
+| Start | Run `HummingSetup-0.1.0-beta.2-win-x64.exe`, then open Humming from Start | Extract `Humming-0.1.0-beta.2-win-x64.zip` to a writable folder, then open `Humming.exe` |
 | Installation | Per Windows account; optional desktop shortcut | No installer |
 | Default data folder | `%LOCALAPPDATA%\Humming` | `data\` beside `Humming.exe` |
 | Update | Quit Humming and run the new Setup; the data folder is retained | Quit Humming and keep `data\` when replacing program files |
@@ -113,10 +113,17 @@ Preferences, shortcuts, favorites, and usage live in `settings.json`, with a rec
 
 For a private settings save, quit Humming and copy the settings files. Exclude `index\` from that save; the cache can be rebuilt on the destination PC. Settings may contain personal paths and website targets, so keep your own backup private. Release downloads do not include a personal profile or filename index.
 
-## First beta
+## Current beta
 
 This release is intended for early feedback on Windows 11 x64. Initial indexing speed and search latency depend on your drives, inventory, permissions, and current workload. Broader accessibility, mixed-monitor/DPI, slow-device, and separate clean-PC validation remain ongoing.
 
-Read the [beta release notes](releases/v0.1.0-beta.1.md) and [changelog](CHANGELOG.md), or [report an issue](https://github.com/memeseonew-eng/Humming/issues). Include the Humming version, Windows version, steps to reproduce, and whether indexing was active or paused. Remove personal paths, filenames, and queries from anything you share.
+Read the [beta release notes](releases/v0.1.0-beta.2.md) and [changelog](CHANGELOG.md), or [report an issue](https://github.com/memeseonew-eng/Humming/issues). Include the Humming version, Windows version, steps to reproduce, and whether indexing was active or paused. Remove personal paths, filenames, and queries from anything you share.
 
 This repository contains public downloads, screenshots, release information, and version metadata. Application development source and private project history are not published here.
+## Use, reuse and privacy
+
+Humming is free to use for personal and internal business tasks under the [Humming terms](LICENSE.txt). This is a proprietary binary distribution. Permission to use the app does not grant permission to extract or reuse protected Humming code, artwork or branding for another product, or to use protected material in AI training datasets. Third-party components retain their own licenses, and statutory exceptions remain unaffected.
+
+Reviews, attributed screenshots and official download links are welcome. Ordinary use with an assistant or accessibility tool is permitted, as is good-faith security or interoperability research under the included terms. Read the [privacy and local-data information](PRIVACY.md) before sharing profiles, backups or issue reports.
+
+Beta.2 adds release protection and stricter packaging checks. Private identifiers in the Core, Windows and Indexing libraries are obfuscated, and Humming debug/source-location metadata is omitted. Public interfaces, data contracts and WPF UI resources remain readable. These measures deter casual copying; they do not make the executable impossible to inspect. The app remains usable offline without an account or license-server check.

@@ -1,0 +1,58 @@
+Humming Beta Use and Resource Terms
+Version 1.0 - 2026-11-04
+
+These terms accompany Humming 0.1.0-beta.2. They apply to protectable,
+Humming-owned software, artwork, branding and documentation distributed with
+these terms. Rights in those elements are reserved by their respective
+Humming rights holders. Humming is published at:
+https://github.com/memeseonew-eng/Humming
+
+1. Using Humming
+You may download and run the official beta without charge for personal use
+and internal business use, and make private backup copies. Your own files,
+queries, settings and other data remain yours. No account is required.
+
+2. Reuse of Humming code and assets
+This is permission to use the application, not an open-source license.
+Unless separately authorized in writing or permitted by applicable law,
+you may not extract, copy, adapt or incorporate Humming-owned code or assets
+into another distributed product; rebrand or sell Humming; redistribute
+modified builds; or remove ownership and license notices. Please link to
+official downloads rather than rehosting or repackaging the application.
+
+No permission is granted to use protectable Humming-owned code or assets as
+training, fine-tuning or distillation material, or to include them in an AI
+training dataset. These restrictions apply equally to manual and AI-assisted
+copying. Ordinary use of Humming with an assistant or accessibility tool is
+permitted when it does not copy or repurpose Humming code or assets.
+
+3. Reviews, interoperability and legal exceptions
+You may share official download links and use attributed screenshots or
+brief excerpts to review, explain or report on Humming, including in
+commercial publications, without implying endorsement. Good-faith security
+testing and interoperability research are permitted; keep personal data
+private and do not redistribute protected implementation or assets.
+
+Nothing here limits non-waivable rights, applicable copyright exceptions,
+independent implementations of ideas or functionality, or rights granted
+under GitHub's terms for material hosted there. These terms do not claim
+exclusive rights over public-domain or otherwise unprotectable material,
+including AI-generated elements where applicable law provides no such rights.
+
+4. Third-party components
+Bundled third-party components remain governed by their own licenses.
+THIRD-PARTY-NOTICES.txt and licenses/ contain the corresponding notices.
+These Humming terms do not restrict or replace those third-party rights.
+
+5. Beta status
+The beta is provided as-is, without warranties to the extent permitted by
+law. Statutory rights that cannot be excluded remain unaffected. The beta
+may contain defects; keep independent backups of important data.
+
+Permission requests and questions:
+https://github.com/memeseonew-eng/Humming/issues
+Do not post private files, credentials or personal paths in a public issue.
+
+These terms are an express permission and reservation of applicable rights,
+not a technical promise that copying or reverse engineering is impossible.
+They do not retroactively alter previously downloaded release files.
