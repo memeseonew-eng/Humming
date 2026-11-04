@@ -4,17 +4,21 @@
 
 Humming brings everyday Windows tasks into one compact launcher. Open an app, find a file by name, copy a folder's path, work out a calculation, or send a deliberate search to Google—all from the same search field.
 
-**Current beta: 0.1.0-beta.3 · Windows 11 x64**
+**Current beta: 0.1.0-beta.4 · Windows 11 x64**
 
-[**Download Windows Setup**](https://github.com/memeseonew-eng/Humming/releases/download/v0.1.0-beta.3/HummingSetup-0.1.0-beta.3-win-x64.exe) · [**Download portable ZIP**](https://github.com/memeseonew-eng/Humming/releases/download/v0.1.0-beta.3/Humming-0.1.0-beta.3-win-x64.zip) · [Release notes](https://github.com/memeseonew-eng/Humming/releases/tag/v0.1.0-beta.3)
+[**Download Windows Setup**](https://github.com/memeseonew-eng/Humming/releases/download/v0.1.0-beta.4/HummingSetup-0.1.0-beta.4-win-x64.exe) · [**Download portable ZIP**](https://github.com/memeseonew-eng/Humming/releases/download/v0.1.0-beta.4/Humming-0.1.0-beta.4-win-x64.zip) · [Release notes](https://github.com/memeseonew-eng/Humming/releases/tag/v0.1.0-beta.4)
 
 The runtime is included. This beta's app and installer are unsigned; Windows may show a publisher or reputation warning. Use the release above for official downloads and published checksums.
 
 ![Humming home with apps and everyday actions](images/humming-home.png)
 
-## New in beta.3
+## New in beta.4
 
-Opening Preferences no longer turns the launcher's results area white. The background follows the active theme while the launcher is temporarily disabled, including when you preview light and dark appearance.
+A small floating Humming button is ready when you want the mouse instead of a keyboard shortcut. With background mode on, a circular button appears along your screen edge while the launcher is hidden. Click it to open Humming immediately or drag it to either edge to keep it out of the way. The icon disappears while the launcher is open and comes back when dismissed.
+
+In Preferences, choose whether to display the button and select a PNG/JPEG or Windows-supported WebP image. Humming crops it to a 160-pixel thumbnail, strips original metadata and saves it locally only when you choose Save preferences. Use Humming icon restores the original artwork. Right-click the floating icon for Open, Preferences, Hide floating icon and Quit.
+
+The existing hotkey, tray menu, light/dark themes, reduced motion and Windows startup controls continue to work. Background mode Off keeps the icon hidden because dismissal exits the app.
 
 ## A small place for the things you do often
 
@@ -85,7 +89,9 @@ For a Start Menu app, **Copy path** copies the shortcut file's path. Some indexe
 
 ## Make it yours
 
-Choose a light or dark theme, reduce motion, customize the global shortcut, and add named shortcuts for frequently used targets. With an empty search, favorites come first, followed by usage frequency and recency. Successful completed actions update local usage; merely entering a mode or copying a path does not count as a launch.
+Choose a light or dark theme, reduce motion, customize the global shortcut, and add named shortcuts for frequently used targets.
+
+The optional floating launcher is draggable and remembers the current screen, left/right edge and vertical placement. It adjusts to the usable screen area when a monitor changes. It does not steal focus while idle. Turn it off from Preferences or the floating icon's right-click menu. With an empty search, favorites come first, followed by usage frequency and recency. Successful completed actions update local usage; merely entering a mode or copying a path does not count as a launch.
 
 Clear usage history in Preferences and save the change when you want a fresh start. Transient Google query text and calculator expressions are not saved as usage-history entries.
 
@@ -93,7 +99,7 @@ Clear usage history in Preferences and save the change when you want a fresh sta
 
 | | Windows Setup | Portable ZIP |
 |---|---|---|
-| Start | Run `HummingSetup-0.1.0-beta.3-win-x64.exe`, then open Humming from Start | Extract `Humming-0.1.0-beta.3-win-x64.zip` to a writable folder, then open `Humming.exe` |
+| Start | Run `HummingSetup-0.1.0-beta.4-win-x64.exe`, then open Humming from Start | Extract `Humming-0.1.0-beta.4-win-x64.zip` to a writable folder, then open `Humming.exe` |
 | Installation | Per Windows account; optional desktop shortcut | No installer |
 | Default data folder | `%LOCALAPPDATA%\Humming` | `data\` beside `Humming.exe` |
 | Update | Quit Humming and run the new Setup; the data folder is retained | Quit Humming and keep `data\` when replacing program files |
@@ -103,7 +109,7 @@ The two modes use different default data folders. Only one Humming instance runs
 
 ### Choose when Humming runs
 
-**Run in the background is On by default.** Dismissing the launcher keeps it in the tray, ready for your global shortcut. Turn it Off to exit when you close or dismiss the launcher, or after opening an external result. Clicking elsewhere leaves the window visible in this mode.
+**Run in the background is On by default.** Dismissing the launcher keeps it in the tray, ready for your global shortcut and optional floating icon. Turn it Off to exit when you close or dismiss the launcher, or after opening an external result. Clicking elsewhere leaves the window visible in this mode.
 
 **Start with Windows is Off by default.** Enable it in **Preferences → Background & startup** and save to launch this copy when you sign in. With background mode On it starts quietly in the tray; with background mode Off it opens the launcher. The two switches are independent.
 
@@ -113,15 +119,15 @@ This beta uses manual updates. Check the [releases page](https://github.com/meme
 
 ### Keep personal data separate from downloads
 
-Preferences, shortcuts, favorites, and usage live in `settings.json`, with a recovery `settings.json.bak`, inside the data folder. The `index\` subfolder is a rebuildable filename cache.
+Preferences, the floating thumbnail and its position, shortcuts, favorites, and usage live in `settings.json`, with a recovery `settings.json.bak`, inside the data folder. The `index\` subfolder is a rebuildable filename cache.
 
-For a private settings save, quit Humming and copy the settings files. Exclude `index\` from that save; the cache can be rebuilt on the destination PC. Settings may contain personal paths and website targets, so keep your own backup private. Release downloads do not include a personal profile or filename index.
+For a private settings save, quit Humming and copy the settings files. Exclude `index\` from that save; the cache can be rebuilt on the destination PC. Settings may contain personal paths, website targets and your floating picture, so keep your own backup private. Release downloads do not include a personal profile or filename index.
 
 ## Current beta
 
 This release is intended for early feedback on Windows 11 x64. Initial indexing speed and search latency depend on your drives, inventory, permissions, and current workload. Broader accessibility, mixed-monitor/DPI, slow-device, and separate clean-PC validation remain ongoing.
 
-Read the [beta release notes](releases/v0.1.0-beta.3.md) and [changelog](CHANGELOG.md), or [report an issue](https://github.com/memeseonew-eng/Humming/issues). Include the Humming version, Windows version, steps to reproduce, and whether indexing was active or paused. Remove personal paths, filenames, and queries from anything you share.
+Read the [beta release notes](releases/v0.1.0-beta.4.md) and [changelog](CHANGELOG.md), or [report an issue](https://github.com/memeseonew-eng/Humming/issues). Include the Humming version, Windows version, steps to reproduce, and whether indexing was active or paused. Remove personal paths, filenames, and queries from anything you share.
 
 This repository contains public downloads, screenshots, release information, and version metadata. Application development source and private project history are not published here.
 ## Use, reuse and privacy

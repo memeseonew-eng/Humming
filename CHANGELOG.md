@@ -2,6 +2,17 @@
 
 User-facing changes to Humming's public releases.
 
+## [0.1.0-beta.4](https://github.com/memeseonew-eng/Humming/releases/tag/v0.1.0-beta.4) - Floating launcher
+
+- Added an optional circular always-on-top launcher button that restores the search field with a click.
+- Added dragging, edge docking and per-monitor position persistence.
+- Added a right-click menu with Open, Preferences, Hide floating icon and Quit.
+- Added a Preferences toggle, PNG/JPEG/Windows-supported WebP picker, live preview and built-in-image reset.
+- The picture is converted locally to a 160-by-160 PNG without original metadata or source file path.
+- Preserved existing global shortcut, dark/light modes, reduced motion, background/startup defaults and file search.
+
+The new image remains local to personal settings and private backups; no user pictures are included in release downloads.
+
 ## [0.1.0-beta.3](https://github.com/memeseonew-eng/Humming/releases/tag/v0.1.0-beta.3) - Preferences theme fix
 
 - Fixed a white background that could appear in the launcher's results area behind Preferences.

@@ -1,6 +1,6 @@
 # Humming privacy and local data
 
-Applies to Humming 0.1.0-beta.2. Updated 2026-11-04.
+Applies to Humming 0.1.0-beta.4. Updated 2026-11-05.
 
 ## What stays on your computer
 
@@ -8,7 +8,9 @@ Humming searches local app shortcuts, saved targets and a filename index on your
 
 Preferences, saved shortcuts, favorites and successful-use history are stored in `settings.json`, with `settings.json.bak` for recovery. A filename cache is stored under `index/`. Transient web-search queries and calculator expressions are not saved as usage-history entries.
 
-Portable copies keep data beside the executable in `data/`. Windows Setup uses `%LOCALAPPDATA%\Humming`. Updates and uninstall retain that installed data. A portable data folder and a private backup can contain sensitive paths and website targets. These files are not encrypted by Humming; protect access to your Windows account and backup storage.
+The optional floating launcher keeps its display, side and vertical position in local settings. When you choose a custom picture, Humming reads it locally and generates a 160-by-160 PNG from pixels, stripping original EXIF/GPS and source file path. Only the encoded thumbnail is stored in settings after Save preferences; the original file is not modified. No picture is uploaded or sent to a service. Use Humming icon removes the custom thumbnail when saved.
+
+Portable copies keep data beside the executable in `data/`. Windows Setup uses `%LOCALAPPDATA%\Humming`. Updates and uninstall retain that installed data. A portable data folder and a private backup can contain sensitive paths, website targets and your chosen floating picture. These files are not encrypted by Humming; protect access to your Windows account and backup storage.
 
 ## When a browser opens
 
