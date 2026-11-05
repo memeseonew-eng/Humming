@@ -2,6 +2,17 @@
 
 User-facing changes to Humming's public releases.
 
+## [0.1.0-beta.5](https://github.com/memeseonew-eng/Humming/releases/tag/v0.1.0-beta.5) - Sharper floating icon
+
+- Fixed blurry default floating artwork caused by WPF loading the ICO's 16-pixel frame.
+- Used a dedicated high-resolution image and better rendering in the button and Preferences.
+- Fixed low-contrast text in the floating button's right-click menu with consistent light/dark styling and item hover states.
+- Reworked the floating-to-launcher animation to paint within a fixed-size canvas instead of repeatedly resizing a transparent window, avoiding its visible jitter.
+- Added a smooth reverse animation: dismissing the main launcher contracts the panel back to the floating circle.
+- Respects reduced-motion/high-contrast settings and safely handles repeated opens, closes and interruptions.
+- Preserved custom pictures, local privacy, keyboard focus, hotkeys, light/dark themes, and existing application/tray branding.
+- Kept beta.4 available as a separate immutable download.
+
 ## [0.1.0-beta.4](https://github.com/memeseonew-eng/Humming/releases/tag/v0.1.0-beta.4) - Floating launcher
 
 - Added an optional circular always-on-top launcher button that restores the search field with a click.
@@ -54,4 +65,4 @@ These are modest copying deterrents and release checks, not encryption of local 
 
 Windows 11 x64; runtime included. The app and Setup are unsigned. The initial scan is progressive and coverage depends on available local drives and permissions. Windows startup is opt-in. There is no file-content search or automatic updater.
 
-See the [release notes](releases/v0.1.0-beta.1.md) for historical feature notes, data paths, keyboard shortcuts, and validation limits. Use the current beta.3 release for downloads. This public repository contains distribution material rather than application development history.
+See the [release notes](releases/v0.1.0-beta.1.md) for historical feature notes, data paths, keyboard shortcuts, and validation limits. Use the current beta release for downloads. This public repository contains distribution material rather than application development history.
