@@ -2,6 +2,14 @@
 
 User-facing changes to Humming's public releases.
 
+## [0.1.0-beta.6](https://github.com/memeseonew-eng/Humming/releases/tag/v0.1.0-beta.6) - Consistent hotkey and floating animation
+
+- Fixed the global hotkey opening Humming without the floating-origin animation when the small floating icon was visible.
+- Opening with Ctrl+Alt+Space now uses the same stable 260 ms circular expansion as clicking the floating icon.
+- Retained the reverse animation on dismiss, search focus, custom image, docking, and accessible reduced-motion behavior.
+- If the floating icon is disabled or not visible, the hotkey keeps its normal compact opening instead of inventing a floating origin.
+- Kept beta.5 and earlier downloads unchanged for rollback.
+
 ## [0.1.0-beta.5](https://github.com/memeseonew-eng/Humming/releases/tag/v0.1.0-beta.5) - Sharper floating icon
 
 - Fixed blurry default floating artwork caused by WPF loading the ICO's 16-pixel frame.

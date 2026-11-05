@@ -2,26 +2,26 @@
     "schemaVersion":  1,
     "product":  "Humming",
     "channel":  "beta",
-    "version":  "0.1.0-beta.5",
-    "fileVersion":  "0.1.0.5",
-    "tag":  "v0.1.0-beta.5",
+    "version":  "0.1.0-beta.6",
+    "fileVersion":  "0.1.0.6",
+    "tag":  "v0.1.0-beta.6",
     "prerelease":  true,
-    "releaseUrl":  "https://github.com/memeseonew-eng/Humming/releases/tag/v0.1.0-beta.5",
+    "releaseUrl":  "https://github.com/memeseonew-eng/Humming/releases/tag/v0.1.0-beta.6",
     "updateMode":  "manual",
     "platform":  "windows",
     "architecture":  "x64",
     "minimumWindowsBuild":  22000,
     "downloads":  {
                       "setup":  {
-                                    "url":  "https://github.com/memeseonew-eng/Humming/releases/download/v0.1.0-beta.5/HummingSetup-0.1.0-beta.5-win-x64.exe",
-                                    "bytes":  71655530,
-                                    "sha256":  "a23c4660269b3d5a625032383022bebc9597164c86d5914f687e55f6d77a2ca5"
+                                    "url":  "https://github.com/memeseonew-eng/Humming/releases/download/v0.1.0-beta.6/HummingSetup-0.1.0-beta.6-win-x64.exe",
+                                    "bytes":  71656341,
+                                    "sha256":  "af92a01d5fefa6ae121f491e325c9f6b6223f505f284c6f51c1a6554dbfc1fcf"
                                 },
                       "portable":  {
-                                       "url":  "https://github.com/memeseonew-eng/Humming/releases/download/v0.1.0-beta.5/Humming-0.1.0-beta.5-win-x64.zip",
-                                       "bytes":  71007008,
-                                       "sha256":  "c1842b6593a19c92dba4bab95df6fbc5347a1e13f153b3e246bee05931d7d09d"
+                                       "url":  "https://github.com/memeseonew-eng/Humming/releases/download/v0.1.0-beta.6/Humming-0.1.0-beta.6-win-x64.zip",
+                                       "bytes":  71007332,
+                                       "sha256":  "95393572cc78932e6e97c280f18220ac1e6ee44672b38b977effdcc55424be7d"
                                    }
                   },
-    "checksumsUrl":  "https://github.com/memeseonew-eng/Humming/releases/download/v0.1.0-beta.5/SHA256SUMS.txt"
+    "checksumsUrl":  "https://github.com/memeseonew-eng/Humming/releases/download/v0.1.0-beta.6/SHA256SUMS.txt"
 }

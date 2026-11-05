@@ -4,15 +4,19 @@
 
 Humming brings everyday Windows tasks into one compact launcher. Open an app, find a file by name, copy a folder's path, work out a calculation, or send a deliberate search to Google—all from the same search field.
 
-**Current beta: 0.1.0-beta.5 · Windows 11 x64**
+**Current beta: 0.1.0-beta.6 · Windows 11 x64**
 
-[**Download Windows Setup**](https://github.com/memeseonew-eng/Humming/releases/download/v0.1.0-beta.5/HummingSetup-0.1.0-beta.5-win-x64.exe) · [**Download portable ZIP**](https://github.com/memeseonew-eng/Humming/releases/download/v0.1.0-beta.5/Humming-0.1.0-beta.5-win-x64.zip) · [Release notes](https://github.com/memeseonew-eng/Humming/releases/tag/v0.1.0-beta.5)
+[**Download Windows Setup**](https://github.com/memeseonew-eng/Humming/releases/download/v0.1.0-beta.6/HummingSetup-0.1.0-beta.6-win-x64.exe) · [**Download portable ZIP**](https://github.com/memeseonew-eng/Humming/releases/download/v0.1.0-beta.6/Humming-0.1.0-beta.6-win-x64.zip) · [Release notes](https://github.com/memeseonew-eng/Humming/releases/tag/v0.1.0-beta.6)
 
 The runtime is included. This beta's app and installer are unsigned; Windows may show a publisher or reputation warning. Use the release above for official downloads and published checksums.
 
 ![Humming home with apps and everyday actions](images/humming-home.png)
 
-## New in beta.5
+## New in beta.6
+
+**One consistent way to open Humming:** When the small floating button is visible, pressing **Ctrl+Alt+Space** now unfolds the search window from that button with the same smooth animation as clicking it, on the button's monitor even if your pointer is elsewhere. Press the hotkey again to dismiss Humming back into the floating circle. Without a visible floating button, the hotkey continues to open Humming normally. Reduced-motion and high-contrast settings are respected.
+
+## Introduced in beta.5
 
 The built-in floating leaf now renders crisply from dedicated 256-pixel artwork rather than an enlarged 16-pixel icon frame. Its right-click menu uses matching light/dark surfaces and readable text. Clicking the floating button smoothly unfolds its circular shape into the full Humming launcher from the button's actual screen position. The revised transition uses a fixed-size drawing surface to prevent the shaking associated with repeatedly resizing a transparent window. Closing Humming into the background reverses the motion back toward the floating button. The ~260 ms opening and ~230 ms closing transitions respect Reduce motion; keyboard shortcuts retain their lighter opening. The app/tray icon and private custom-image behavior are unchanged.
 
@@ -103,7 +107,7 @@ Clear usage history in Preferences and save the change when you want a fresh sta
 
 | | Windows Setup | Portable ZIP |
 |---|---|---|
-| Start | Run `HummingSetup-0.1.0-beta.5-win-x64.exe`, then open Humming from Start | Extract `Humming-0.1.0-beta.5-win-x64.zip` to a writable folder, then open `Humming.exe` |
+| Start | Run `HummingSetup-0.1.0-beta.6-win-x64.exe`, then open Humming from Start | Extract `Humming-0.1.0-beta.6-win-x64.zip` to a writable folder, then open `Humming.exe` |
 | Installation | Per Windows account; optional desktop shortcut | No installer |
 | Default data folder | `%LOCALAPPDATA%\Humming` | `data\` beside `Humming.exe` |
 | Update | Quit Humming and run the new Setup; the data folder is retained | Quit Humming and keep `data\` when replacing program files |
@@ -131,7 +135,7 @@ For a private settings save, quit Humming and copy the settings files. Exclude `
 
 This release is intended for early feedback on Windows 11 x64. Initial indexing speed and search latency depend on your drives, inventory, permissions, and current workload. Broader accessibility, mixed-monitor/DPI, slow-device, and separate clean-PC validation remain ongoing.
 
-Read the [beta release notes](releases/v0.1.0-beta.5.md) and [changelog](CHANGELOG.md), or [report an issue](https://github.com/memeseonew-eng/Humming/issues). Include the Humming version, Windows version, steps to reproduce, and whether indexing was active or paused. Remove personal paths, filenames, and queries from anything you share.
+Read the [beta release notes](releases/v0.1.0-beta.6.md) and [changelog](CHANGELOG.md), or [report an issue](https://github.com/memeseonew-eng/Humming/issues). Include the Humming version, Windows version, steps to reproduce, and whether indexing was active or paused. Remove personal paths, filenames, and queries from anything you share.
 
 This repository contains public downloads, screenshots, release information, and version metadata. Application development source and private project history are not published here.
 ## Use, reuse and privacy
